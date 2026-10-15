@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AHMED ZAID - Portfolio</title>
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style-sheet.css">
+  </head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img class="logo-img" src="logo.jpg" alt="Zaid Logo">  
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">I'm a <span id="element" style="color: white;"></span></span>
+        <h1 class="hero-title">Hi, I'm <span>Ahmed Zaid</span></h1>
+        <h2 class="hero-subtitle">I build things for the web.</h2>
+        <p class="hero-desc">
+          I'm a passionate web developer specializing in building exceptional digital experiences with modern technologies.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View My Work <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        
+        <div class="tech-stack">
+          <p class="tech-stack-title">Technologies I Work With</p>
+          <div class="tech-icons">
+            <div class="tech-icon tech-html" title="HTML5"><i class="fa-brands fa-html5"></i></div>
+            <div class="tech-icon tech-css" title="CSS3"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="tech-icon tech-js" title="JavaScript"><i class="fa-brands fa-js"></i></div>
+            <div class="tech-icon tech-ts" title="TypeScript">TS</div>
+            <div class="tech-icon tech-react" title="React"><i class="fa-brands fa-react"></i></div>
+            <div class="tech-icon tech-next" title="Next.js">N</div>
+            <div class="tech-icon tech-git" title="Git"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="tech-icon tech-meta" title="Meta"><i class="fa-brands fa-meta"></i></div>
+            <div class="tech-icon tech-figma" title="Figma"><i class="fa-brands fa-figma"></i></div>
+            <div class="tech-icon tech-mongodb" title="Database"><i class="fa-solid fa-database"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-avatar-wrapper">
+          <!-- Profile image set via background CSS -->
+        </div>
+        
+        <!-- Code snippet floating card -->
+        <div class="code-card">
+          <div class="code-header">
+            <span>&lt;/&gt; Code</span>
+            <div class="code-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+          </div>
+          <div class="code-content">
+            <span class="code-keyword">const</span> <span class="code-var">developer</span> = {<br>
+            &nbsp;&nbsp;name: <span class="code-string">"Zaid"</span>,<br>
+            &nbsp;&nbsp;skills: [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"React"</span>],<br>
+            &nbsp;&nbsp;passion: <span class="code-string">"Building things for the web"</span><br>
+            };
+          </div>
+        </div>
+
+        <!-- Decorative Arrow -->
+        <svg class="arrow-svg" viewBox="0 0 100 100" fill="none" stroke="#818cf8" stroke-width="2">
+          <path d="M 10,10 Q 50,90 90,50" fill="none"/>
+          <path d="M 70,50 L 90,50 L 85,30" fill="none"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="resume-header-flex">
+        <span class="section-subtitle">SKILLS & EXPERIENCE</span>
+      </div>
+      <div class="resume-content">
+        <div class="skills-section">
+          <div class="skill-item">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">DATA SCRAPING</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 93%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">MS OFFICE</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 87%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">JAVA-SCRIPT</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">META ADS</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 82%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">COMMUNICATION SKILLS</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 86%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">FIGMA</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 78%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">MONGO-DB</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 69%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">NODE-JS</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 73%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">GIT-HUB</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">TAILWIND CSS</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">TYPE-SCRIPT</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">EDITING</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 97%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">BACKEND DEVELOPMENT</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">SOCIAL MEDIA MANAGEMENT</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">FRONTEND DEVELOPMENT</div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 94%;"></div></div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">Sales Agent | Efu Life <br>(JUN 2024 – DEC 2024)</div>
+            <div class="stat-label">Executes high-volume outbound telesales campaigns to prospect, qualify, and engage leads for EFU Life’s insurance and savings solutions. Conducts over-the-phone financial consultations to pitch tailored life protection, education, and investment plans while overcoming client objections. Manages end-to-end phone sales, from initial cold calling to lead conversion, policy documentation, and CRM data management.</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">CSR | DESTINASIA TRAVEL SOLUTION <br>(DEC 2024 – AUG 2025)</div>
+            <div class="stat-label">Handles inbound and outbound travel inquiries for domestic clients, assisting with personalized itinerary planning, domestic flight/hotel bookings, and tour packages. Drives revenue by actively recommending domestic holiday destinations, managing sales conversions over phone and chat, and upselling travel add-ons. Provides end-to-end customer support—resolving booking modifications, cancellations, and inquiries—to deliver a seamless travel experience.</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">CSR & DIGITAL MARKETER | BISMILLAH DISCOVERY TRAVELS <br>(AUG 2025 – FEB 2026)</div>
+            <div class="stat-label">Manages official social media platforms and plans targeted paid ad campaigns to generate high-intent international travel leads. Oversees customer support and sales communication for international clients, providing custom itinerary consultations, handling tour package inquiries, and guiding bookings. Combines digital marketing strategy with direct client relationship management to drive global sales conversions and build brand visibility.</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">DATA ENTRY OFFICER | ORION BUSINESS <br>(FEB 2026 – SEP 2026)</div>
+            <div class="stat-label">Accurately enters, updates, and maintains product, order, and customer records across international e-commerce store platforms. Manages digital warehouse databases by tracking inventory levels, stock updates, and inbound/outbound shipment details to ensure supply chain data integrity. Conducts routine audits on store metrics and customer data to eliminate discrepancies, maintain strict data privacy, and support smooth order fulfillment.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <span class="section-subtitle">Featured Projects</span>
+      <h2 class="section-title">Some of My Recent Work</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-number">01</span>
+            <img src="project (1).jpg" alt="Tourism Site">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Landing Page of E-commerce site</h3>
+            <p class="project-desc">Modern e-commerce landing page with an intuitive, shopper-first UI.</p>
+            <a href="https://ahmedzaidhere-source.github.io/landing-page-/" class="project-link">
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-number">02</span>
+            <img src="project (2).jpg" alt="E-commerce Landing Page">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Password Manager</h3>
+            <p class="project-desc">Secure, effortless password management designed for fluid cross-platform navigation.</p>
+            <a href="https://ahmedzaidhere-source.github.io/password-manager/" class="project-link">
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-number">03</span>
+            <img src="project (3).jpg" alt="Add To Cart Page">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Product Detail</h3>
+            <p class="project-desc">Conversion-focused product detail page with multi-angle gallery, size selector, and customer reviews.</p>
+            <a href="https://ahmedzaidhere-source.github.io/Product-detail/" class="project-link">
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-number">04</span>
+            <img src="project (4).jpg" alt="Spotify Clone">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Add to Cart page</h3>
+            <p class="project-desc">Interactive shopping cart with real-time order calculation and multi-step checkout workflow.</p>
+            <a href="https://ahmedzaidhere-source.github.io/add-to-cart/" class="project-link">
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-number">05</span>
+            <img src="project (5).jpg" alt="Database Project">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Tourism Site</h3>
+            <p class="project-desc">Immersive travel landing page featuring custom trip builders and modern, media-rich UI/UX.</p>
+            <a href="https://ahmedzaidhere-source.github.io/PLAN-TO-NORTH-/" class="project-link">
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-number">06</span>
+            <img src="project (6).jpg" alt="Full E-commerce Website">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">FULL E-commerce Website</h3>
+            <p class="project-desc">Fully functional e-commerce web application with responsive design, dynamic shop routing, and cart management.</p>
+            <a href="https://ahmedzaidhere-source.github.io/Zlvon/" class="project-link">
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT SECTION -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Left: Work Together -->
+        <div class="contact-cta">
+          <span class="section-subtitle" style="color: white;">Let's Work Together</span>
+          <h2 class="section-title" style="color: white;">Have a project in mind?</h2>
+          <p>I'm always open to discussing new projects and opportunities. Let's create something amazing together!</p>
+          <a href="mailto:ahmed.zaid.here@gmail.com" class="btn btn-primary">
+            Get In Touch <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+
+        <!-- Middle: Testimonial -->
+        <div class="testimonial-card">
+          <span class="section-subtitle" style="color: white; letter-spacing: -0.9px;">
+            <i class="fa-brands fa-slack" style="color: rgba(0, 248, 116, 0.45);"></i> &nbsp; INTRODUCTION
+          </span>
+          <p class="testimonial-text">
+            "I'm Ahmed Zaid, a full-stack developer who brings nearly two years of diverse corporate experience into building practical web applications. Currently pursuing my BS in Computer Science, I leverage my background across various business operations to engineer end-to-end front-end and back-end solutions."
+          </p>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-user-graduate" style="color: #ffffff; font-size: 1.2rem;"></i>
+            <div>
+              <div class="author-title" style="text-transform: capitalize; color: #ffffff;">Bachelor of Science in Computer Science</div>
+              <div class="author-title">Virtual University (2023 — Present)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Follow & Contact Info -->
+        <div class="footer-contact">
+          <div class="social-links">
+            <a href="https://github.com/ahmedzaidhere-source" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahmed-zaid-1261a627b?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/923294003928" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <span>ahmed.zaid.here@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+92 3294003928</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+  <script>
+    // Typed.js Animation
+    var typed = new Typed('#element', {
+      strings: [
+        '<i>WEB DEVELOPER</i>.',
+        '<i>FRONTEND DEVELOPER</i>.',
+        '<i>SOCIAL MEDIA MANAGER.</i>',
+        '<i>Meta Ads Specialist</i>.'
+      ],
+      typeSpeed: 100,
+      loop: true,
+      loopCount: Infinity,
+    });
+
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
